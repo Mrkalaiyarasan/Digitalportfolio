@@ -1,0 +1,29 @@
+body{
+    background:url(aa.jpg);
+}
+
+.text-box{
+        width: 90%;
+        color: rgb(250, 243, 243);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .text-box a {
+        font-size: 14px;
+        text-decoration: none;
+        color: rgb(250, 243, 243);
+        display: inline-block;
+        padding: 8px 40px;
+        border: 1px solid rgb(6, 215, 243);
+        margin-top: 10px;
+        background: transparent;
+        transition: .6s;
+        font-weight: bold;
+    }
+    .text-box a:hover{
+        background: rgb(9, 11, 12);
+        border: 1px solid rgb(15, 208, 238);
+    }
